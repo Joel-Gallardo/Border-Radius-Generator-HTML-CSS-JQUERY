@@ -4,13 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+
     <title>Border Radius</title>
-    <style media="screen"></style>
-    <script src="jquery.js"></script>
 </head>
 <body>
-    <div class="main">
-
+    <div  class="main">
+        Output <div id="output"></div>
+        Result <input type="text" id="box"  value="border-radius: 0% 0% 0% 0%">
+        <input type="range" min="0" max="100" value="0" id="slider1">
+        <input type="range" min="0" max="100" value="0" id="slider2">
+        <input type="range" min="0" max="100" value="0" id="slider3">
+        <input type="range" min="0" max="100" value="0" id="slider4">
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
